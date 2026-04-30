@@ -1,0 +1,27 @@
+# Magical Creature Arena — Boss Hunt
+# Objective: SLAY THE DRAGON to win.
+#   - You don't need to kill every creature.
+#   - You lose if all heroes die.
+#
+# Format:
+#   PLAYER    type name health extra x y    (extra = mana for MAGE)
+#   CREATURE  type name health x y
+#   OBSTACLE  type name value  x y
+
+# --- Heroes (south, packed close) ---
+PLAYER    WARRIOR  Knight   70   0   3 7
+PLAYER    MAGE     Wizard   50   80  4 7
+PLAYER    HEALER   Cleric   55   0   5 7
+
+# --- Mid-board guardians (in the way of the Dragon) ---
+CREATURE  GENERIC  Goblin   30  3 5
+CREATURE  MAGICAL  Ogre     45  5 5
+CREATURE  FLYING   Wyvern   40  6 4
+
+# --- THE BOSS — north side ---
+CREATURE  DRAGON   Smaug   150  4 1
+
+# --- Walls forcing you to commit to a path ---
+OBSTACLE  PLAIN    Rock    200  2 4
+OBSTACLE  PLAIN    Rock    200  7 4
+OBSTACLE  TRAP     Spikes   12  4 3

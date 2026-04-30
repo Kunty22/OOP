@@ -1,4 +1,4 @@
-# Magical Creature Arena — OOP Project
+# Magical Creature Arena - OOP Project
 
 A turn-based grid combat game where Players (Warrior, Mage, Healer) fight
 AI-controlled Creatures (Goblin, Ogre, Dragon, Wyvern, Boss). Built as
